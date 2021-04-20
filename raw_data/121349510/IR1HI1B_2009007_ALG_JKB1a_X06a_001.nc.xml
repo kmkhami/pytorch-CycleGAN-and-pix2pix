@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSIDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:IR1HI1B.001:121349510</GranuleUR>
+        <DbID>121349510</DbID>
+        <InsertTime>2017-07-17 09:43:26.463</InsertTime>
+        <LastUpdate>2017-07-17 09:43:26.463</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>IR1HI1B</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>IR1HI1B_2009007_ALG_JKB1a_X06a_001.nc</DistributedFileName>
+                <FileSize>20060736</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>1702c9dd56d951ae57264a3c8eea32ca</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>19.1314</SizeMBECSDataGranule>
+            <LocalGranuleID>IR1HI1B_2009007_ALG_JKB1a_X06a_001.nc</LocalGranuleID>
+            <ProductionDateTime>2017-03-22 16:42:16.000</ProductionDateTime>
+            <LocalVersionID>001</LocalVersionID>
+        </ECSDataGranule>
+        <RangeDateTime>
+            <RangeEndingTime>09:36:06.519500</RangeEndingTime>
+            <RangeEndingDate>2009-01-07</RangeEndingDate>
+            <RangeBeginningTime>09:32:51.582000</RangeBeginningTime>
+            <RangeBeginningDate>2009-01-07</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <GPolygon>
+                    <Boundary>
+                        <Point>
+                            <PointLongitude>139.40849</PointLongitude>
+                            <PointLatitude>-67.23298</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>139.42238</PointLongitude>
+                            <PointLatitude>-67.23298</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>139.38535</PointLongitude>
+                            <PointLatitude>-67.26341</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>139.25572</PointLongitude>
+                            <PointLatitude>-67.34933</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>139.24181</PointLongitude>
+                            <PointLatitude>-67.3547</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>139.24181</PointLongitude>
+                            <PointLatitude>-67.34038</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>139.40386</PointLongitude>
+                            <PointLatitude>-67.23477</PointLatitude>
+                        </Point>
+                    </Boundary>
+                </GPolygon>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <Platform>
+            <PlatformShortName>BT-67</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>HiCARS1</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>HiCARS1</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <Campaign>
+            <CampaignShortName>2008_AN_UTIG</CampaignShortName>
+        </Campaign>
+        <PSAs>
+            <PSA>
+                <PSAName>SIPSMetGenVersion</PSAName>
+                <PSAValue>0.1.0.0</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>ThemeID</PSAName>
+                <PSAValue>2008_AN_UTIG</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>AircraftID</PSAName>
+                <PSAValue>C-GJKB</PSAValue>
+            </PSA>
+        </PSAs>
+        <BrowseProduct>
+            <BrowseGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:23:BR:Browse.001:121349516</BrowseGranuleId>
+        </BrowseProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+

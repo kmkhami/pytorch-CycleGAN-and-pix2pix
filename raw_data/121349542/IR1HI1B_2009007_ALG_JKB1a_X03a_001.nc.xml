@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSIDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:IR1HI1B.001:121349542</GranuleUR>
+        <DbID>121349542</DbID>
+        <InsertTime>2017-07-17 09:43:35.768</InsertTime>
+        <LastUpdate>2017-07-17 09:43:35.768</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>IR1HI1B</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>IR1HI1B_2009007_ALG_JKB1a_X03a_001.nc</DistributedFileName>
+                <FileSize>2889972</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>f73fa99f1e2cd0a74d1204f3f54d6fa5</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>2.75609</SizeMBECSDataGranule>
+            <LocalGranuleID>IR1HI1B_2009007_ALG_JKB1a_X03a_001.nc</LocalGranuleID>
+            <ProductionDateTime>2017-03-22 16:38:06.000</ProductionDateTime>
+            <LocalVersionID>001</LocalVersionID>
+        </ECSDataGranule>
+        <RangeDateTime>
+            <RangeEndingTime>11:03:28.054700</RangeEndingTime>
+            <RangeEndingDate>2009-01-07</RangeEndingDate>
+            <RangeBeginningTime>11:03:18.312500</RangeBeginningTime>
+            <RangeBeginningDate>2009-01-07</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <GPolygon>
+                    <Boundary>
+                        <Point>
+                            <PointLongitude>138.9415</PointLongitude>
+                            <PointLatitude>-67.27661</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>138.95542</PointLongitude>
+                            <PointLatitude>-67.27661</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>138.9415</PointLongitude>
+                            <PointLatitude>-67.29272</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>138.93222</PointLongitude>
+                            <PointLatitude>-67.28198</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>138.93686</PointLongitude>
+                            <PointLatitude>-67.2784</PointLatitude>
+                        </Point>
+                    </Boundary>
+                </GPolygon>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <Platform>
+            <PlatformShortName>BT-67</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>HiCARS1</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>HiCARS1</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <Campaign>
+            <CampaignShortName>2008_AN_UTIG</CampaignShortName>
+        </Campaign>
+        <PSAs>
+            <PSA>
+                <PSAName>SIPSMetGenVersion</PSAName>
+                <PSAValue>0.1.0.0</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>ThemeID</PSAName>
+                <PSAValue>2008_AN_UTIG</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>AircraftID</PSAName>
+                <PSAValue>C-GJKB</PSAValue>
+            </PSA>
+        </PSAs>
+        <BrowseProduct>
+            <BrowseGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:23:BR:Browse.001:121349623</BrowseGranuleId>
+        </BrowseProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
